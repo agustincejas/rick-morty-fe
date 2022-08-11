@@ -33,4 +33,4 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
   Responsive grid where set/remove favorite is enabled by clicking hearts.\
   ### /characters/:id (Detail Page)
 
-  ### /<someOtherPath> (Not found Page)
+  ### /someOtherPath (Not found Page)
