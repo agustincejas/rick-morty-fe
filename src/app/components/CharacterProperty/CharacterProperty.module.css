@@ -1,0 +1,8 @@
+.propertyContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.propertyLabel {
+  color: rgb(158, 158, 158);
+}

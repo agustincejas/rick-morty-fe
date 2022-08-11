@@ -1,0 +1,21 @@
+
+.pageContainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cardsContainer {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,350px));
+  grid-auto-rows: 1fr;
+  gap: 30px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}

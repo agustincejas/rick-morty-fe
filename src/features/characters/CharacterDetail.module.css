@@ -1,0 +1,36 @@
+.characterDetailContainer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 16px;
+}
+
+.avatarContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.propertiesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.properties {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 16px;
+  gap: 16px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .properties {
+    gap: 10px;
+    padding: 16px 0;
+  }
+  .propertiesContainer {
+    flex-direction: column;
+  }
+}
